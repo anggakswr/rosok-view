@@ -14,6 +14,37 @@
     height: 80px;
 }
 
+.barang-header {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
 .foto-profil {
     width: 150px;
+}
+
+.barang-toko .foto-kecil {
+    height: 120px;
+}
+
+.barang-toko {
+    font-size: 14px;
+}
+
+td:last-child {
+    width: 190px;
+}
+
+@media (max-width: 768px) {
+    .nomobile {
+        display: none;
+    }
+
+    td:last-child {
+        width: 80px;
+    }
+
+    td:last-child > * {
+        margin: 2px;
+    }
 }
