@@ -1,6 +1,19 @@
-.foto-barang {
+.foto-kecil, .foto-besar {
     width: 100%;
     height: 150px;
     background-position: center;
     background-size: cover;
+    cursor: pointer;
+}
+
+.foto-besar {
+    height: 350px;
+}
+
+.detail-barang {
+    height: 80px;
+}
+
+.foto-profil {
+    width: 150px;
 }
